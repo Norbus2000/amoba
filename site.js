@@ -168,7 +168,7 @@ $(document).on('click', '.game-cell', function (e) {
       showOutcome(symbols[turn % 2], 'Nyert!');
     } else if (turn === size * size - 1) {
       gameOver = true;
-      showOutcome('Tie', 'Döntetlen');
+      showOutcome('Döntetlen');
     } else {
       turn++;
       $('#big-symbol').text(symbols[turn % 2]);
