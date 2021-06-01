@@ -1,0 +1,204 @@
+html, body {
+  height: 100%;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.header {
+  display: block;
+  width: 30%;
+  min-width: 333px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+.leftside {
+  float: left;
+}
+
+.rightside {
+  float: right;
+}
+
+.prettydiv {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border-top: 3px solid black;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  border-left: 3px solid black;
+  background-color: orange;
+  text-align: center;
+}
+
+.prettydiv div {
+  display: block;
+  width: 100%;
+}
+
+#big-symbol {
+  font-size: 70px;
+}
+
+form {
+  display: inline-block;
+  width: 210px;
+}
+
+form h2 {
+  line-height: 1em;
+  margin: 5px 0;
+  font-family: fantasy;
+}
+
+.form-field {
+  display: inline-block;
+  padding: 0;
+  margin: 5px;
+  width: 40%
+}
+
+.form-field label {
+  display: block;
+}
+
+.form-field input[type="number"] {
+  width: 1.5em;
+  padding-left: 0.3em;
+  font-size: 2em;
+}
+
+.form-field input[type="text"] {
+  width: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+
+.form-submit input {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+.game-board {
+  display: block;
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.game-cell {
+  display: inline-block;
+  box-sizing: border-box;
+  border-top: 3px solid black;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  border-left: 3px solid black;
+  text-align: center;
+}
+
+.game-cell span {
+  position: relative;
+  top: 0;
+}
+
+.box3 {
+  height: 33.333333%;
+  width: 33.333333%;
+  font-size: 133px;
+}
+
+.box4 {
+  height: 25%;
+  width: 25%;
+  font-size: 100px;
+}
+
+.box5 {
+  height: 20%;
+  width: 20%;
+  font-size: 80px;
+}
+
+.box6 {
+  height: 16.66667%;
+  width: 16.66667%;
+  font-size: 67px;
+}
+
+.box7 {
+  height: 14.28571%;
+  width: 14.28571%;
+  font-size: 57px;
+}
+
+.box8 {
+  height: 12.5%;
+  width: 12.5%;
+  font-size: 50px;
+}
+
+.box9 {
+  height: 11.11111%;
+  width: 11.11111%;
+  font-size: 44;
+}
+
+.box10 {
+  height: 10%;
+  width: 10%;
+  font-size: 40px;
+}
+
+.r1 {
+  border-top: none;
+}
+
+.rLast {
+  border-bottom: none;
+}
+
+.c1 {
+  border-left: none;
+}
+
+.cLast {
+  border-right: none;
+}
+
+.invisible {
+  display: none;
+}
+
+.winRow {
+  background: linear-gradient(0deg, transparent, transparent, transparent, transparent, transparent, transparent, orange, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
+.winCol {
+  background: linear-gradient(90deg, transparent, transparent, transparent, transparent, transparent, transparent, orange, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
+.winDiag1 {
+  background: linear-gradient(45deg, transparent, transparent, transparent, transparent, transparent, transparent, orange, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
+.winDiag2 {
+  background: linear-gradient(-45deg, transparent, transparent, transparent, transparent, transparent, transparent, orange, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
